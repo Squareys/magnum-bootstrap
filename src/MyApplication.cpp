@@ -1,5 +1,10 @@
-#include <Platform/GlutApplication.h>
 #include <DefaultFramebuffer.h>
+
+#ifdef CORRADE_TARGET_NACL
+#include <Platform/NaClApplication.h>
+#else
+#include <Platform/GlutApplication.h>
+#endif
 
 using namespace Magnum;
 
