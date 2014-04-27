@@ -3,7 +3,7 @@
 #ifdef CORRADE_TARGET_NACL
 #include <Magnum/Platform/NaClApplication.h>
 #else
-#include <Magnum/Platform/GlutApplication.h>
+#include <Magnum/Platform/Sdl2Application.h>
 #endif
 
 using namespace Magnum;
